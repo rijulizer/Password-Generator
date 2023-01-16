@@ -1,3 +1,6 @@
+import sys, os
+# os.chdir(sys._MEIPASS)
+
 from password_generator import PasswordGenerator
 import tkinter as tk
 import tkinter.messagebox

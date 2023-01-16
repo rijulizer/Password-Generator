@@ -9,8 +9,8 @@ class PasswordGenerator:
         # min_pass_len=16
         self.max_pass_len = self.min_pass_len + 6 #22
         self.speclchar_num_len = 5
-        self.movie_data_path = './artifacts/Top_10000_Movies_2.csv'
-        self.list_titles_path = './artifacts/list_titles.pkl'
+        self.movie_data_path = os.getcwd() + '/artifacts/Top_10000_Movies_2.csv'
+        self.list_titles_path = os.getcwd() + '/artifacts/list_titles.pkl'
 
         self.speclchar_num_map = {
         0:"~",
